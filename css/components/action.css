@@ -1,0 +1,17 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    font-family: "Inconsolata", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 30px;  
+         }
+
+.action ::before {
+    content: "";
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
