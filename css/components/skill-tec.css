@@ -1,0 +1,14 @@
+.skill-tec {
+    display: flex;
+    font-family: "Inconsolata", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.skill-tec .icon {
+    margin-right: 25px;
+}
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
