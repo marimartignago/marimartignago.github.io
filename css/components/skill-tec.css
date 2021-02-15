@@ -1,5 +1,6 @@
 .skill-tec {
     display: flex;
+    align-items: center;
     font-family: "Inconsolata", Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 25px;
