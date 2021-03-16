@@ -16,3 +16,11 @@ margin-bottom: 60px;
 .main-section.-bdFirst {
     border-color: #000;
 }
+
+.main-section.-bdSecond {
+    background-color: #ADE8F4;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
+}
