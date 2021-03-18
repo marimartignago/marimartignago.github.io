@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
-
+    <link rel="stylesheet" href="css/components/main-label.css">
 <body>
     <header class="main-header">
         <img src="assets/imagens/foto1.jpg" width="60" height="60" alt="Foto">
@@ -102,13 +102,6 @@
     <section class="main-section -bdSecond -bgBlack">
         <h2 class="main-title -second">Sobre</h2>
 
-        <p class="main-description">
-            Atualmente, em transição de carreira para a área de tecnologia. Mariana já trabalhou em diversas áreas. Foi
-            confeiteira, farmacêutica, professora de curso técnico, pesquisadora. A partir da sua vivência no mestrado,
-            se interessou pela Ciência de Dados. Para unir essas duas paixões: a pesquisa acadêmica e a tecnologia,
-            começou a estudar autonomamente. Este é o seu primeiro projeto desenvolvido.
-        </p>
-
         <section class="main-carrousel">
             <button class="button-arrow -left"><span class="content">Avançar</span> </button>
 
@@ -153,12 +146,31 @@
 
             <button class="button-arrow -right"><span class="content">Voltar</span> </button>
         </section>
+        <p class="main-description">
+            Atualmente, em transição de carreira para a área de tecnologia. Mariana já trabalhou em diversas áreas. Foi
+            confeiteira, farmacêutica, professora de curso técnico, pesquisadora. A partir da sua vivência no mestrado,
+            se interessou pela Ciência de Dados. Para unir essas duas paixões: a pesquisa acadêmica e a tecnologia,
+            começou a estudar autonomamente. Este é o seu primeiro projeto desenvolvido.
+        </p>
     </section>
 
+    <form>
+        <label class="main-label" for="Name">Nome</label class="">
+        <input id="Name" type="text">
+
+        <label class="main-label" for="Email">Email</label>
+        <input id="Email" type="email">
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea id="message"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
 
     <footer class="main-footer">
-        <a class="action" href="https://www.linkedin.com/in/mariana-martignago/" target="_blank"> <img src="img/twitter 1.png" alt=" logo Linkedin"> </a>
-         
+        <a class="action" href="https://www.linkedin.com/in/mariana-martignago/" target="_blank"> <img
+                src="img/twitter 1.png" alt=" logo Linkedin"> </a>
+
     </footer>
 </body>
 
