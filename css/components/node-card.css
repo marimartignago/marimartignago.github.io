@@ -1,0 +1,42 @@
+.node-card {
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+
+.node-card::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    height: 0px;
+    width: 50px;
+    border: 2.5px dashed #000;
+    transform: rotate(90deg) translateX(-62%);
+    bottom: 120px;
+}
+
+.node-card .title{
+    font-family: "Inconsolata", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border: 5px solid #3A4042;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#FFF;
+}
+
+.node-card.-clean .logo{
+    padding: 0;
+}
+
+.node-card.-first .logo {
+    background-color: #99C1DE;
+}
