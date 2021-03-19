@@ -13,3 +13,7 @@ font-size: 20px;
 .main-button:hover {
     transform: scale(1.08);
 }
+
+.main-button.-full {
+    width: 100%;
+}
